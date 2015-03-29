@@ -3,8 +3,8 @@ public class ExcelSheetColumnNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		Solution s = new Solution();
+
+		ExcelSheetColumnNumber s = new ExcelSheetColumnNumber();
 		
 		int number = s.titleToNumber("BA");
 		
@@ -12,9 +12,7 @@ public class ExcelSheetColumnNumber {
 
 	}
 
-}
 
-class Solution {
 	public int titleToNumber(String s) {
 		int num = 0;
 
@@ -27,4 +25,8 @@ class Solution {
 
 		return num;
 	}
+
+
+
 }
+

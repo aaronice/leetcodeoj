@@ -1,4 +1,5 @@
-public class Solution {
+public class ReverseInt {
+
     public int reverse(int x) {
         boolean nega=false;
         if (x<0) {

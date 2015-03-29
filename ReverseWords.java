@@ -1,4 +1,6 @@
-public class Solution {
+public class ReverseWords {
+
+
     public String reverseWords(String s) {
         String delims = "[ ]+";
         String[] tokens = s.split(delims);
